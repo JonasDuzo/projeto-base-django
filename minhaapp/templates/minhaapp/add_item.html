@@ -10,7 +10,7 @@
     <form method="POST">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Salvar</button>
+        <button type="submit">Enviar</button>
     </form>
     <p><a href="{% url 'lista_itens' %}">Voltar para a lista</a></p>
 </body>
